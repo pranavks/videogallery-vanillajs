@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        id="video-gallery"
+        class="d-flex flex-column flex-xl-row video-gallery"
+      >
+        <div class="flex-item1">
+          <div class="video-container video-container1 overlay">
+            <div id="play-video">
+              <img src="https://source.unsplash.com/300x200/?friends" />
+            </div>
+            <iframe
+              style="display: none;"
+              id="video1"
+              src="https://www.youtube.com/embed/c5nhWy7Zoxg?loop=1&playlist=c5nhWy7Zoxg&rel=0"
+              frameborder="0"
+              allowfullscreen
+              allow="autoplay"
+            ></iframe>
+          </div>
+        </div>
+        <div class="flex-item2">
+          <div class="video-link selected">
+            <p
+              data-src="https://www.youtube.com/embed/c5nhWy7Zoxg?loop=1&playlist=c5nhWy7Zoxg&rel=0"
+              data-img="https://source.unsplash.com/300x200/?friends"
+            >
+              <span><i class="fa fa-play" aria-hidden="true"></i></span>&ensp;
+              Video 1
+              <span class="float-right">1:00</span>
+            </p>
+          </div>
+          <div class="video-link">
+            <p
+              data-src="https://www.youtube.com/embed/ZK9wtYOcChQ?loop=1&playlist=ZK9wtYOcChQ&rel=0"
+              data-img="https://source.unsplash.com/300x200/?eye"
+            >
+              <span><i class="fa fa-play" aria-hidden="true"></i></span
+              >&ensp;Video 2
+              <span class="float-right">1:00</span>
+            </p>
+          </div>
+          <div class="video-link">
+            <p
+              data-src="https://www.youtube.com/embed/HOz34_2Z-mw?loop=1&playlist=HOz34_2Z-mw&rel=0"
+              data-img="https://source.unsplash.com/300x200/?airplane"
+            >
+              <span><i class="fa fa-play" aria-hidden="true"></i></span
+              >&ensp;Video 3
+              <span class="float-right">1:00</span>
+            </p>
+          </div>
+          <div class="video-link">
+            <p
+              data-src="https://www.youtube.com/embed/ZEaIqwRBHt8?loop=1&playlist=ZEaIqwRBHt8&rel=0"
+              data-img="https://source.unsplash.com/300x200/?doctor"
+            >
+              <span><i class="fa fa-play" aria-hidden="true"></i></span
+              >&ensp;Video 4
+              <span class="float-right">1:00</span>
+            </p>
+          </div>
+          <div class="video-link">
+            <p
+              data-src="https://www.youtube.com/embed/78RUGbKkMFI?loop=1&playlist=78RUGbKkMFI&rel=0"
+              data-img="https://source.unsplash.com/300x200/?city"
+            >
+              <span><i class="fa fa-play" aria-hidden="true"></i></span
+              >&ensp;Video 5
+              <span class="float-right">1:00</span>
+            </p>
+          </div>
+          <div class="video-link">
+            <p
+              data-src="https://www.youtube.com/embed/Y1jTEyb3wiI?loop=1&playlist=Y1jTEyb3wiI&rel=0"
+              data-img="https://source.unsplash.com/300x200/?cars"
+            >
+              <span><i class="fa fa-play" aria-hidden="true"></i></span
+              >&ensp;Video 6
+              <span class="float-right">1:00</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
